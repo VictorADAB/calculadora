@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Calculadora Online</h1>
+    
+    <div class="calculadora">
+        <h2>Calculadora</h2>
+        <div class="display">
+        </div>
+        <div class="botoes">
+            <table id="tabelaBotoes">
+                <tr>
+                    <td onclick="clickButton('C')" class="icones_calculo">C</td>                    
+                    <td onclick="clickButton('<')" class="icones_calculo"><</td>
+                    <td onclick="clickButton('/')" class="icones_calculo">/</td>
+                    <td onclick="clickButton('X')" class="icones_calculo">X</td>
+                </tr>   
+                <tr>
+                    <td onclick="clickButton(7)" class="icones_numeros">7</td>
+                    <td onclick="clickButton(8)" class="icones_numeros">8</td>
+                    <td onclick="clickButton(9)" class="icones_numeros">9</td>
+                    <td onclick="clickButton('-')" class="icones_calculo">-</td>
+                </tr>
+                <tr>
+                    <td onclick="clickButton(4)" class="icones_numeros">4</td>
+                    <td onclick="clickButton(5)" class="icones_numeros">5</td>
+                    <td onclick="clickButton(6)" class="icones_numeros">6</td>
+                    <td onclick="clickButton('+')" class="icones_calculo">+</td>
+                </tr>
+                <tr>
+                    <td onclick="clickButton(1)" class="icones_numeros">1</td>
+                    <td onclick="clickButton(2)" class="icones_numeros">2</td>
+                    <td onclick="clickButton(3)" class="icones_numeros">3</td>
+                    <td rowspan="2" onclick="clickButton('=')" class="icones_calculo">=</td>
+                </tr>
+                <tr>
+                    <td colspan="2" onclick="clickButton(0)" class="icones_numeros">0</td>
+                    <td onclick="clickButton('.')" class="icones_calculo">.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+
+</html>
